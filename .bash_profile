@@ -1,11 +1,9 @@
-HOST_NAME=Neo
+HOST_NAME=neo
 
 source ~/.nvm/nvm.sh
 nvm use stable
 shopt -s autocd
 shopt -s histappend
-
-export PATH=$PATH:$HOME/bin
 
 export HISTSIZE=5000
 export HISTFILESIZE=10000
